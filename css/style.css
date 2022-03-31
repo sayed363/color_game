@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+}
+@font-face {
+    font-family: Reference, sans-serif;
+    src: url(../fonts/MS-Reference-Sans-Serif.ttf);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-container{
+    height: auto;
+    width: 750px;
+    margin: 15px auto;
+}
+.box{
+    
+}
+#top-container {
+    height: auto;
+    background-color: #2D8E99;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px;
+    color: #fff;
+}
+div#color {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 8px 0;
+}
+div#sub-title {
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+#last-container{
+    height: auto;
+    background-color: #232323;
+    position: relative;
+}
+#upper{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.color-box{
+    margin: 11px;
+    text-align: center;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #232323;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+    line-height: 100px;
+}
+#last-container {
+    padding: 10px 180px;
+    height: 300px;
+}
