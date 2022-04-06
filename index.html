@@ -7,38 +7,28 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="img/fevicon.jpg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Rajdhani&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <div id="main-container">
-            <!-- top -->
-            <div class="box" id="top-container">
-                <h2>The Great</h2>
-                <div id="color">RGB</div>
-                <div id="sub-title">guessing game</div>
-            </div>
-
-            <!--stripe-->
-            <div class="box" id="mid-container">
-                <button id="reset">New Colors</button>
-                <span id="message"></span>
-                <button id="easy" class="mode">Easy</button>
-                <button id="hard" class="mode selected">Hard</button>
-            </div>
-            
-            <!-- bottom -->
-            <div class="box" id="last-container">
-                <div id="upper">
-                    <div class="color-box" style="background-color: #73C2B8;" id="col1">1</div>
-                    <div class="color-box" style="background-color: #008744;" id="col2">2</div>
-                    <div class="color-box" style="background-color: #E062B5;" id="col3">3</div>
-                    <div class="color-box" style="background-color: #ebdd57;" id="col4">4</div>
-                    <div class="color-box" style="background-color: #188AB2;" id="col5">5</div>
-                    <div class="color-box" style="background-color: #916008;" id="col6">6</div>
-                </div>               
-            </div>
+        <h1>The Great <span id="color-display">RGB</span> Guessing Game</h1>
+        <div id ="stripe">
+            <button id="reset">New Colors</button>
+            <span id="message"></span>
+            <button class="mode">Easy</button>
+            <button class="mode selected">Hard</button>
         </div>
-        
+        <div id="container">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
+        <script src="js/js2.js" async defer></script>
         <script src="js/custom.js" async defer></script>
     </body>
 </html>
